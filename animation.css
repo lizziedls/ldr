@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@900&display=swap');
+body{
+ background-color: black;
+}
+p{
+ font-size: 50px; text-align: center;
+ background-color: white; font-family: 'Borel', cursive;
+ text-shadow: 2px 2px 3px grey;
+ font-family: 'Noto Serif KR', serif;
+}
+marquee{
+    font-size: 40px;
+    font-family: 'Noto Serif KR', serif;
+}
+div{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from {background-color: white;}
+    to {background-color: black;}
+   }
+div.fd{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    animation-name: example2;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+@keyframes example2{
+    0%{background-color: darkred;}
+    25%{background-color: red;}
+    50%{background-color: white;}
+    75%{background-color: gray;}
+    100%{background-color: black;}
+}
+    div.gg{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    animation-name: example3;
+    position: relative;
+    animation-duration: 10s;
+    text-align: center;
+    font-family: 'Noto Serif KR', serif;
+    color: white;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example3{
+    0% {background-color: black; left:0px; top:0px;}
+    25% {background-color: darkred; left:300px; top:0px;}   
+    50% {background-color: red; left:300px; top:300px;}
+    75% {background-color: black; left:0px; top:300px;}
+    100% {background-color: white; left:0px; top:0px;}
+}

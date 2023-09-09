@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@900&display=swap');
+body{
+ background-color: black;}
+ p{
+ font-size: 38px; text-align: center;
+ background-color: white; font-family: 'Borel', cursive;
+ text-shadow: 2px 2px 3px grey;
+ border: solid 5px grey;
+ display: inline-flex;
+}
+span{
+    border: dashed 2px grey;
+    display: block;
+}
+ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    border: dotted 5px whitesmoke;
+    margin: 20px;
+    font-size: 24px;
+    color: white;
+    background-color: grey;
+}
+a:hover{
+background-color: black;
+}
+.first{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border: ridge 5px grey;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Serif KR', serif;
+}
+.second{
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+    border: ridge 5px white;
+    font-family: 'Noto Serif KR', serif;
+    border-style: dashed 8px black;
+}
+.third, .fourth{
+    height: 150px;
+    width: 750px;
+    background-color: black;
+    margin: 50px;
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+}
+.fifth{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border: ridge 5px white;
+    font-family: 'Noto Serif KR', serif;
+    border-style: dashed 8px black;
+    text-align: center;
+    
+}
+.sixth{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    border: ridge 5px white;
+    font-family: 'Noto Serif KR', serif;
+    border-style: dashed 8px black;
+    text-align: center;
+    margin: 38px;
+}
+.seventh{
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    border: ridge 5px white;
+    font-family: 'Noto Serif KR', serif;
+    border-style: dashed 8px black;
+    text-align: center;
+    margin: 38px;
+}
